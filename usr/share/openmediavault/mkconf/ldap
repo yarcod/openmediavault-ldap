@@ -32,7 +32,6 @@
 
 set -e
 
-. /etc/default/openmediavault
 . /usr/share/openmediavault/scripts/helper-functions
 
 OMV_LDAP_CONFIG=${OMV_LDAP_CONFIG:-"/etc/ldap/ldap.conf"}

@@ -25,7 +25,6 @@
 
 set -e
 
-. /etc/default/openmediavault
 . /usr/share/openmediavault/scripts/helper-functions
 
 # PAM profiles are stored below /usr/share/pam-configs
