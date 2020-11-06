@@ -24,7 +24,15 @@ OMV.WorkspaceManager.registerNode({
 	id: "ldap",
 	path: "/privilege",
 	text: _("Directory Service"),
-	icon16: "images/ldap.png",
-	iconSvg: "images/ldap.svg",
-	position: 5
+    icon16: "images/ldap.png",
+    iconSvg: "images/ldap.svg",
+	position: 10
+});
+
+OMV.WorkspaceManager.registerNode({
+	id: "ldap",
+	path: "/privilege/ldap",
+	text: _("LDAP"),
+	position: 10,
+	className: "OMV.module.admin.privilege.ldap.LDAP"
 });
